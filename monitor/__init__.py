@@ -225,11 +225,3 @@ class GradeMonitor:
 
     def __get_temp_path(self, filename) -> str:
         return os.path.join(dirname(dirname(__file__)), 'temp', filename)
-
-
-if __name__ == '__main__':
-    stu_code = '1520182520'
-    vpn_password = 'wsq.20001005.pq.3Q'
-    email = '754523314@qq.com'
-    monitor = GradeMonitor(stu_code, vpn_password, email)
-    monitor.check_grade()

@@ -35,8 +35,3 @@ class Logger:
     def get_log(self) -> logging.Logger:
         """定义一个函数，回调logger实例"""
         return self.logger
-
-
-if __name__ == '__main__':
-    print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    print(__file__)
