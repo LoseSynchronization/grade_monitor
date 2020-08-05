@@ -1,0 +1,19 @@
+ocr:  # 使用的是百度识图接口
+  apiKey: DkP6PhZxIzSt1Y2h5QH25iRE
+  secretKey: 88bdoGnYFAnt8cUgOQV6rBrPg7pe1BAf
+
+mail:  # 邮箱服务器配置，用于给用户发送通知
+  sender: 754523314@qq.com  # 发件人(email为发件人邮箱)
+  senderName: Monitor # 发件人名称
+  server: smtp.qq.com  # 邮箱服务器地址
+  port: 465  # 服务器端口
+  secret: yjnbbqyhzkfabcaa  # 服务器密钥
+
+users:  # 需要监控的用户，有几个用户就写几个
+  - user:
+      id: 1520182520  # 学号，必须唯一
+      password: wsq.20001005.pq.3Q # 密码，用于登录webVPN的密码，设置前请先确认密码可用
+      email: 754523314@qq.com # 用户的邮箱，用于向用户发送通知
+
+monitor:
+  interval: 1800 # 监控间隔，单位s
