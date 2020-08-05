@@ -1,0 +1,2 @@
+# grade_monitor
+使用python实现的一个实时监控教务成绩并进行提示的小脚本
