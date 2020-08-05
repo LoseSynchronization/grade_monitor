@@ -10,16 +10,6 @@ from notice import MailNotice
 from utils import mylogger
 from utils.BaiduOcr import BaiduOcr
 
-userList = [{
-    'stu_code': '1520182520',
-    'vpn_password': 'wsq.20001005.pq.3Q',
-    'email': '754523314@qq.com'
-}, {
-    'stu_code': '1520182524',
-    'vpn_password': '000000',
-    'email': '1156604022@qq.com'
-}]
-
 LOGGER: Logger = mylogger.Logger("main").get_log()
 
 
