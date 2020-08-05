@@ -39,7 +39,7 @@
     >
     > 登录web vpn后测试教务系统：https://jw.webvpn.jxust.edu.cn/jsxsd/framework/xsMain.jsp
 
-	3. 运行
+ 3. 运行
 
     ```
     python main.py
