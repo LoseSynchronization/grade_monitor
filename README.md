@@ -56,3 +56,5 @@
 - utils/ 存放一些工具类，比如日志程序和OCR程序
 - main.py  主运行程序
 - requirements.txt 依赖列表
+
+> 有问题或者建议可以提issue哈！
